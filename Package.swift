@@ -11,7 +11,7 @@ let package = Package(
             targets: ["PerfectLDAP"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectSideRepos/Perfect-ICONV.git", from: "3.0.0"),
+        .package(url: "https://github.com/jcombs-pointblue/Perfect-ICONV.git", from: "1.0.0"),
         .package(url: "https://github.com/PerfectlySoft/Perfect-libSASL.git", from: "1.0.0"),
         .package(url: "https://github.com/PerfectlySoft/Perfect-OpenLDAP.git", from: "1.0.0"),
     ],
